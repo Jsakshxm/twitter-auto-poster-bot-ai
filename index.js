@@ -14,6 +14,11 @@ const twitterClient = new TwitterApi({
 const generationConfig = {
   maxOutputTokens: 400,
 };
+console.log(SECRETS.GEMINI_API_KEY);
+console.log(SECRETS.APP_KEY);
+console.log(SECRETS.APP_SECRET);
+console.log(SECRETS.ACCESS_TOKEN);
+console.log(SECRETS.ACCESS_SECRET);
 const genAI = new GenAI.GoogleGenerativeAI(SECRETS.GEMINI_API_KEY);
 
 async function run() {
