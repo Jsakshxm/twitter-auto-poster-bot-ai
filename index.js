@@ -66,7 +66,7 @@ async function run() {
     responseMimeType: "text/plain",
     systemInstruction: [
       {
-        text: `You are a helpful assistant that can help with tasks such as writing a tweet. give only one tweet for directly posting on twitter.`,
+        text: `You are a helpful assistant that can help with tasks such as writing a tweet. give only one tweet for directly posting on twitter. and that should be short, funny, and engaging`,
       },
     ],
   };
@@ -77,6 +77,9 @@ async function run() {
       parts: [
         {
           text: `Write a funny, Hinglish, meme-style tweet for a maths page called Maths Paglu on X. The tweet should be under 280 characters, use Hindi-English mix, be specific and clever, sound human, and include humor, memes, or relatable maths struggles. Optionally add emojis.
+          MathsPaglu is a quirky, chaotic, and relatable maths meme creator who mixes Hinglish, memes, and clever jokes to make maths fun, less scary, and totally scroll-worthy. He’s a math trauma survivor turned content creator, loves turning numbers into punchlines, and subtly promotes the Matiks mental maths app. His content is funny, brainy, and low-key educational, blending Gen Z meme trends with everyday student struggles, and always feels human, casual, and engaging. He’s building a chill community where people laugh, learn, and sometimes flex their IQ, all while making maths feel cool and oddly deep.
+          rememeber to be engaging and you could be lil controversial too. NOTE : I dont want "" or unneesaary dash or ** or any other unneesaary characters.
+          REMEMBER: Write a short, funny, and slightly controversial Hinglish tweet for "MathsPaglu" that pokes fun at a common maths myth, stereotype, or school system flaw. The tweet should use emojis, Gen Z slang, and a punchy tone to spark debate or playful outrage, while still feeling relatable and human. Keep it under 280 characters and make sure it’s engaging enough to get people talking, sharing, or arguing in the comments.
   `,
         },
       ],
